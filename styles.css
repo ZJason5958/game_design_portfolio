@@ -1,0 +1,30 @@
+body {
+    color: white;
+    margin: 0;
+}
+header {
+    background: black;
+    margin: 20px;
+}
+section {
+    background: white;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+}
+div {
+     background: red;
+     margin: auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+footer {
+    background: black;
+}
