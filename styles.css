@@ -14,7 +14,6 @@ section {
 }
 
 div {
-    border-bottom: 2px solid rgb(131, 131, 131);
     display: flex;
     width: 100%;
 }
@@ -22,6 +21,7 @@ div {
 button {
     background: none;
     border: none;
+    border-bottom: 3px solid rgb(131, 131, 131);
     color: rgb(131, 131, 131);
     cursor: pointer;
     font-size: 16px;
@@ -29,4 +29,9 @@ button {
     text-transform: uppercase;
     height: 42px;
     width: 50%;
+}
+
+.selected {
+    color: rgb(255, 54, 54);
+    border-bottom: 3px solid rgb(255, 54, 54);
 }
