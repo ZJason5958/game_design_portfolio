@@ -3,11 +3,13 @@ buttons.forEach(element => element.addEventListener("click", toggle));
 
 function toggle() {
     if (!this.classList.contains("selected")) {
-        buttons.forEach(element => element.className = "");
-        this.className = "selected";
-        var shown = document.querySelector("ul:not([hide])");
-        var hidden = document.querySelector(".hide");
-        shown.classList.add("hide");
-        hidden.classList.remove("hide")
+        var chosenButton = this;
+        var otherButton = chosenButton.parentElement.querySelector(".selected");
+        chosenButton.classList.add("selected");
+        otherButton.classList.remove("selected");
+        var shownList = document.querySelector("ul:not(.hide)");
+        var hiddenList = document.querySelector(".hide");
+        shownList.classList.add("hide");
+        hiddenList.classList.remove("hide");
     }
 }
