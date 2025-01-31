@@ -1,3 +1,7 @@
+.hide {
+    display: none;
+}
+
 body {
     background: rgb(183, 249, 255);
     font-family: monospace;
@@ -8,7 +12,6 @@ body {
 section {
     background: rgb(159, 217, 255);
     border-radius: 10px;
-    display: flex;
     margin: 4%;
     padding: 3%;
 }
@@ -34,4 +37,22 @@ button {
 .selected {
     color: rgb(255, 54, 54);
     border-bottom: 3px solid rgb(255, 54, 54);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    height: 90px;
+    margin: 3%;
+}
+
+.unity li {
+    background: orange;
+}
+
+.unreal-engine li {
+    background: rgb(255, 141, 255);
 }
