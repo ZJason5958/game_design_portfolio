@@ -3,23 +3,30 @@
 }
 
 body {
-    background: rgb(183, 249, 255);
-    font-family: monospace;
+    background: rgba(112, 255, 179, 0.739);
+    font-family: sans-serif;
     font-size: 15px;
     margin: 0;
 }
 
 header {
-    font-size: 22px;
-    margin: 4%;
+    color: rgb(10, 250, 122);
+    font-size: 33px;
+    font-weight: 900;
+    margin: 5% 4% 2% 4%;
     text-align: center;
+    -webkit-text-stroke: 1.75px rgb(5, 132, 56);
 }
 
 section {
-    background: rgb(159, 217, 255);
+    background: rgb(165, 255, 205);
+    border: 2px solid red;
     border-radius: 10px;
-    margin: 4%;
-    padding: 3%;
+    color: rgb(9, 154, 43);
+    font-weight: 600;
+    margin: 3% 8% 0% 8%;
+    padding: 3.5% 5%;
+    text-align: justify;
 }
 
 div {
